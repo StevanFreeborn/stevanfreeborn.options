@@ -66,7 +66,8 @@ public class OptionTests
   [Test]
   public async Task ImplicitConversion_FromNull_ItShouldReturnNoneOption()
   {
-    Option<string> option = null!;
+    string? nullString = null;
+    Option<string> option = nullString;
 
     await Assert.That(option.IsNone).IsTrue();
   }
