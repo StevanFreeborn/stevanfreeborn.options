@@ -1,7 +1,7 @@
 #!/bin/bash
 
 version="${1:-}"
-csprojPath="${2:-src/StevanFreeborn.Results/StevanFreeborn.Results.csproj}"
+csprojPath="${2:-src/StevanFreeborn.Options/StevanFreeborn.Options.csproj}"
 
 if [[ -z "$version" ]]; then
   echo "Error: Version is required"
