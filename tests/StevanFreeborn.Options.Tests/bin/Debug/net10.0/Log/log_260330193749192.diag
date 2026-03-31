@@ -1,0 +1,14 @@
+2026-03-30T19:37:49.1968784+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.1.0+26fb0d3e539b7900114443db5edf1e0c4e9d4b82
+2026-03-30T19:37:49.2082545+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-03-30T19:37:49.2087577+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-03-30T19:37:49.2087607+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 19:37:49.183
+2026-03-30T19:37:49.2088184+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 49068
+2026-03-30T19:37:49.2088369+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.5
+2026-03-30T19:37:49.2088489+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.5\System.Private.CoreLib.dll
+2026-03-30T19:37:49.2088539+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-03-30T19:37:49.2089049+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\sfree\Repositories\stevanfreeborn.options\tests\StevanFreeborn.Options.Tests\bin\Debug\net10.0\StevanFreeborn.Options.Tests.dll
+2026-03-30T19:37:49.2089786+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\sfree\Repositories\stevanfreeborn.options\tests\StevanFreeborn.Options.Tests\bin\Debug\net10.0\Log --client-port 51312'
+2026-03-30T19:37:49.2094607+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-03-30T19:37:49.3949618+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-03-30T19:37:49.4030885+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-03-30T19:37:49.5515838+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'TUnitExtension' Version: '1.23.7.0' DisplayName: 'TUnit' Description: 'TUnit Framework for Microsoft Testing Platform'

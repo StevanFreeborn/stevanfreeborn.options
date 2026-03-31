@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "StevanFreeborn.Options/0.0.0": {
+        "runtime": {
+          "StevanFreeborn.Options.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StevanFreeborn.Options/0.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

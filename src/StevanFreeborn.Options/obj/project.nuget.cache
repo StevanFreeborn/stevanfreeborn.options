@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "sqs8WMAlK3E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sfree\\Repositories\\stevanfreeborn.options\\src\\StevanFreeborn.Options\\StevanFreeborn.Options.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sfree\\.nuget\\packages\\microsoft.build.tasks.git\\10.0.201\\microsoft.build.tasks.git.10.0.201.nupkg.sha512",
+    "C:\\Users\\sfree\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "C:\\Users\\sfree\\.nuget\\packages\\microsoft.sourcelink.common\\10.0.201\\microsoft.sourcelink.common.10.0.201.nupkg.sha512",
+    "C:\\Users\\sfree\\.nuget\\packages\\microsoft.sourcelink.gitea\\10.0.201\\microsoft.sourcelink.gitea.10.0.201.nupkg.sha512",
+    "C:\\Users\\sfree\\.nuget\\packages\\system.io.hashing\\10.0.5\\system.io.hashing.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

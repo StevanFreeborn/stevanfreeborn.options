@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net10.0</TargetFrameworks>
+    <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">true</IsAotCompatible>
+    <VerifyReferenceAotCompatibility>true</VerifyReferenceAotCompatibility>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>StevanFreeborn.Options</PackageId>
+    <Version>0.0.0</Version>
+    <Authors>StevanFreeborn</Authors>
+    <Description>A minimalistic, AOT-compatible Option type library for functional programming in .NET.</Description>
+    <PackageTags>option;maybe;functional;discriminated-union</PackageTags>
+    <PackageProjectUrl>https://gitea.freeborn.cloud/Stevan/stevanfreeborn.options</PackageProjectUrl>
+    <RepositoryUrl>https://gitea.freeborn.cloud/Stevan/stevanfreeborn.options</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <DebugType>embedded</DebugType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(GITEA_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.Gitea">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
